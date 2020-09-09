@@ -1,6 +1,6 @@
 .header {
     align-items: center;
-    background: #001E3C;
+    background:transparent;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -19,13 +19,13 @@
   }
   .menu-header__navigation-item {
     position: relative;
-    font-family: var(--font-family--text-default,var(--fonts__family--text-default,'')),var(--font-family--text-fallback,var(--fonts__family--text-fallback,''));
-    font-weight: 500;
+    font-family: Helvetica ;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 1.111rem;
-    color: #1a1919;
+    color: transparent;
     padding-bottom: 3px;
-    text-shadow: 0 0 20px #000f1e;
+    text-shadow: 0 0 20px transparent;
 }
   .menu-header__navigation-item-content{
     color: white;
