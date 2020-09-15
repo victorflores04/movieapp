@@ -1,14 +1,9 @@
 body {
     margin: 0;
-    border: 0;
-    line-height: 1;
-    color: #000;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    --fonts__family--title-fallback: Helvetica,sans-serif;
-    --fonts__family--text-fallback: Helvetica,sans-serif;
-    --fonts__family--japanese-regular: "Hiragino Kaku Gothic ProN W3","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",Osaka,"メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic","Arial Unicode MS",Tahoma,Helvetica,sans-serif;
-    --fonts__family--japanese-bold: "Hiragino Kaku Gothic StdN W8","Hiragino Kaku Gothic Std","Hiragino Kaku Gothic ProN W6",Osaka,"ヒラギノ角ゴ Std W8","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic","Arial Unicode MS",Tahoma,Helvetica,sans-serif;
-    vertical-align: baseline;
-    font-family: Helvetica,sans-serif;
-}
+    font-family: 'Muli', sans-serif;
+    background: #f3f8f8;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
